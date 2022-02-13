@@ -1,0 +1,256 @@
+.fa-bell {
+    color: #31417f;
+}
+
+.fa-user {
+    color: #31417f;
+}
+
+.fa-columns {
+    color: #31417f;
+}
+
+.colorusam {
+    color: #31417f !important;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.btn-usam {
+    color: #E5E7EB;
+    background-color: #31417f !important;
+    border-color: #31417f !important;
+}
+
+.contenedor-menu {
+    width: auto;
+    line-height: 40px;
+    height: 100%;
+    position: fixed;
+    padding: 20px 20px 0px 10px;
+    border-right: solid #E5E7EB 1px;
+    display: inline-block;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.contenedor-menu ul {
+    list-style: none;
+}
+
+.contenedor-menu .menu li a {
+    color: #31417f;
+    display: block;
+    border-radius: 25px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.contenedor-menu .menu li a:hover {
+    text-decoration: none;
+    background-color: #E5E7EB;
+}
+
+.contenedor-menu .menu li .icono {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu li .icono .izquierda {
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu li .icono .derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+.contenedor-menu .menu ul li {
+    margin-left: 15px;
+}
+
+.contenedor-menu .menu .activado>a {
+    background-color: #E5E7EB;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+.activo {
+    text-decoration: none;
+    background-color: #E5E7EB;
+}
+
+.menu-superior {
+    list-style: none;
+}
+
+.menu-superior li {
+    display: block;
+    float: left;
+    margin: 20px 10px 20px 10px;
+}
+
+.menu-superior li a {
+    text-decoration: none;
+    color: #31417f;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.menu-superior li a svg {
+    margin-right: 5px;
+}
+
+.menu-superior li a:hover {
+    text-decoration: none;
+    background-color: #E5E7EB;
+}
+
+.border-circulo-i {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.border-circulo-d {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media screen and (min-width: 958px) {
+    .menu-superior {
+        display: none;
+    }
+    .hamburguesa {
+        display: none;
+    }
+    .aside {
+        width: 8.33% !important;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    .aside {
+        width: 0%;
+        margin: 0% !important;
+        padding: 0% !;
+        flex: none;
+    }
+    .contenedor-menu {
+        width: 0;
+        border: none;
+    }
+    .contenedor-menu .menu {
+        display: none;
+    }
+    .hamburguesa {
+        display: block;
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #31417f;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #31417f;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.btn-usam {
+    color: #E5E7EB;
+    background-color: #31417f !important;
+    border-color: #31417f !important;
+}
+
+.fondo-usam {
+    background-color: #31417f !important;
+}
+
+.color-gris-oscuro {
+    color: #E5E7EB;
+}
+
+.color-red {
+    color: #c22020;
+}
+
+.color-azul {
+    color: #0f57dd;
+}
+
+.noonsearch {
+    all: unset;
+    text-align: start !important;
+}
+
+.dropdown-menu-oficina a {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+}

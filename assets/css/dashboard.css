@@ -1,0 +1,102 @@
+.graficas {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.contenedorfc {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.letragrande {
+    font-size: x-large;
+}
+
+.linksutil {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+.linksutil:hover {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+
+@media screen and (max-width: 576px) {
+    .graficas {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .graficas .card {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+
+    .contenedorfc {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedorfc .card {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .graficas {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .graficas .card {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+
+    .contenedorfc {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedorfc .card {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 941px) {
+    .graficas {
+        justify-content: space-around;
+    }
+
+    .graficas .card {
+        width: 400px;
+    }
+
+    .contenedorfc {
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+
+    .porvencer {
+        width: 45%;
+    }
+
+    .actproximas {
+        width: 45%;
+    }
+}
