@@ -1,9 +1,13 @@
+
 </div>
+
 </div>
 <!-- Footer -->
+
 <footer class="page-footer">
 	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">&copy; <?php echo date('Y'); ?> Copyright:
+	<div class="footer-copyright text-center py-3">
+		&copy; <?php echo date('Y'); ?> Copyright:
 		<a href="https://www.usam.edu.sv/" target="_blank"> Universidad Salvadoreña Alberto Masferrer.</a>
 	</div>
 	<!-- Programado con mucho ❤ por:
@@ -16,6 +20,10 @@
 </footer>
 
 <script src="<?= base_url() . 'assets/js/main.js'; ?>"></script>
+
+<script src="<?= base_url() . 'assets/js/all.js'; ?>"></script>
+<script src="<?= base_url() . 'assets/js/all.min.js'; ?>"></script>
+<script src="<?= base_url() . 'assets/js/fontawesome.js'; ?>"></script>
 
 <script src="<?= base_url() . 'assets/mdb/js/popper.min.js'; ?>"></script>
 <script src="<?= base_url() . 'assets/mdb/js/bootstrap.min.js'; ?>"></script>

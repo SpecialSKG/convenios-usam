@@ -6,7 +6,8 @@
     word-wrap: break-word;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
 }
-html{
+
+html {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -15,7 +16,8 @@ body {
     min-height: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+    background-image: url("../img/magicpattern-confetti-1683743990076.svg");
 }
 
 h1 {
@@ -94,7 +96,7 @@ h1 {
 }
 
 .box-background {
-    background-image: linear-gradient( 135deg, #094f8b 10%, #a33139 100%);
+    background-image: linear-gradient(135deg, #094f8b 10%, #a33139 100%);
 }
 
 .box-background--blue800 {
@@ -233,9 +235,11 @@ a.ssolink {
     0% {
         transform: translateX(0px);
     }
+
     50% {
         transform: translateX(1000px);
     }
+
     100% {
         transform: translateX(0px);
     }
@@ -245,23 +249,25 @@ a.ssolink {
     0% {
         transform: translateX(0px);
     }
+
     50% {
         transform: translateX(-1000px);
     }
+
     100% {
         transform: translateX(0px);
     }
 }
 
-.badge{
+.badge {
     font-size: 15px;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.border-convenio{
+.border-convenio {
     border: 1px solid #cfdbe6 !important;
     border-radius: 5px !important;
 }
